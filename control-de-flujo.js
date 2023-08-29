@@ -31,6 +31,19 @@
 // a != b se evalúa si tienen distinto valor
 // a !== b se evalúa si son distinto valor y tipo
 
+// a > b
+// a >= b
+
+// a < b
+// a <= b
+
+// ! Operadores Aritméticos
+// Suma +
+// Resta -
+// Multiplicación *
+// División /
+// Potencia ** ej: 2**4
+
 // if( a !== b ){
 //     console.log('Es cierto que son distintos');
 // } else {
@@ -85,4 +98,70 @@
 //     default:
 //         console.log('Valor incorrecto')
 //         break;
+// }
+
+
+
+// ! Estructuras Repetitivas
+// a > b
+// a >= b
+
+// a < b
+// a <= b
+
+// ! Operadores Aritméticos
+// Suma +
+// Resta -
+// Multiplicación *
+// División /
+// Potencia ** ej: 2**4
+
+// for (let i = 0; i < 11; i++) {
+//     // console.log("8 x " + i + " = " + 8 * i )
+//     console.log(`7 x ${i} = ${7*i}`) // Template String
+// }
+
+// let value = false
+// while(value === false) {
+//     console.log('Estoy dentro del bucle')
+//     value = true
+// }
+// console.log('Estoy fuera del bucle')
+
+
+// let value = true;
+// do {
+//     console.log('Estoy dentro del bucle')
+//     value = false
+// } while (false)
+
+
+// // ! Operador Ternario
+// let dia = 3;
+// (dia === 1)
+//     ? console.log('Lunes')
+//     : (dia === 2)
+//         ? console.log('Martes')
+//         : (dia === 3)
+//             ? console.log('Miércoles')
+//             : (dia === 4)
+//                 ? console.log('Jueves')
+//                 : (dia === 5)
+//                     ? console.log('Viernes')
+//                     : (dia === 6)
+//                         ? console.log('Sabado')
+//                         : (dia === 7)
+//                             ? console.log('Domingo')
+//                             : console.log('Valor ingresado incorrecto')
+
+
+// if(true){
+// (true)? console.log('Ok'): console.log('No Ok')
+// }
+
+
+// let listaCompras = ["Pan", "Mayonesa", "Tomate", "Milanesas"]
+
+// for (const item of listaCompras) {
+//     console.log(item)
 // }
